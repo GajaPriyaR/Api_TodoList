@@ -19,7 +19,7 @@ function signup(e) {
 
     alert("Registered");
 
-    window.location = "http://127.0.0.1:5500/login.html";
+    window.location = "https://gajapriyar.github.io/Api_TodoList/home.html";
   }
 }
 
@@ -94,7 +94,7 @@ function login(e) {
   if (data == null) {
     alert("Wrong");
   } else if (username == data.username && password == data.password && terms) {
-    window.location = "http://127.0.0.1:5500/home.html";
+    window.location = "https://gajapriyar.github.io/Api_TodoList/home.html";
   } else {
     alert("Enter the correct details");
   }
